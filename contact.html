@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <h1 class="main">ELECTRICA</h1>
+
+            <div class="navbar-btn">
+                <button class="btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+         </div>
+     <div class="navbar-center hide">
+        <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="testimonial.html">TESTIMONIAL</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html" class="active">CONTACT US</a></li>
+        </ul>
+        </div>
+    </div>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>GET IN TOUCH</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Phone Number">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>SEND</button>
+            </div>
+            <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.3879279667512!2d77.97362109293495!3d10.363402055494822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00abaeec6af0bf%3A0xe0141700eab69f34!2sDindigul%20Thalappakatti%20Restaurant!5e0!3m2!1sen!2sin!4v1790848602391!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-box">
+            <h3>QUICK LINKS</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="testimonial.html">Testimonial</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer-box">
+            <h3>BLOG</h3>
+            <p>
+                Latest electrical service information,
+                tips and updates.
+            </p>
+        </div>
+        <div class="footer-box">
+            <h3>NEWSLETTER</h3>
+            <input type="email" placeholder="Enter Your Email">
+            <button>SUBSCRIBE</button>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>© 2026 All Rights Reserved. Design by Free html Templates Distribution by ThemeWagon</p>
+    </div>
+
+
+    <script>
+        document.querySelector(".btn").onclick = function() {
+            document.querySelector(".navbar-center").classList.toggle("hide");
+        };
+    </script>
+
+</body>
+
+</html>
